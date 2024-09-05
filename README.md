@@ -16,7 +16,7 @@ The project consists of a Flask backend with a web frontend to make the model ac
 6. **Light-weight and Efficient**: Fast processing of text with minimal delay.
 
 # Tech Stack
--> **Frontend**:
+-> **Frontend**:<br>
        1. HTML
        2. CSS
        3. JavaScript
