@@ -41,3 +41,4 @@ The project consists of a Flask backend with a web frontend to make the model ac
 5. And That's it!!
 
 # Architecture
+![Screenshot (32)](https://github.com/user-attachments/assets/3d9332ad-1a91-4150-8ac6-d797332562f7)
