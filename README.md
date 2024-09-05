@@ -42,3 +42,17 @@ The project consists of a Flask backend with a web frontend to make the model ac
 
 # Architecture
 ![Screenshot (32)](https://github.com/user-attachments/assets/3d9332ad-1a91-4150-8ac6-d797332562f7)
+
+# Model Training
+The machine learning model used in this project is based on natural language processing (NLP) techniques. The following steps were used to train the model:
+
+1. **Data Preprocessing**: Cleaning and preparing the dataset.
+    -Tokenization
+    -Removal of stop words
+    -Lemmatization and stemming
+2. **Vectorization**: Using CountVectorizer and TF-IDF to convert text to numerical format.
+3. **Model**: Various classification models such as Logistic Regression, Naive Bayes, and Support Vector Machine (SVM) were evaluated.
+4. **Evaluation**: The best-performing model was selected based on accuracy, precision, recall, and F1-score.
+
+# Code for Model Training:
+You can find the model training script in the train_model.py file. It handles data preprocessing, training, and saving the trained model.
