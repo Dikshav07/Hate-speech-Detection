@@ -1,0 +1,93 @@
+body {
+    font-family: 'Algerian', sans-serif; /* Font for body */
+    background-color: #e7a2d1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f32525;
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(172, 146, 159, 0.315);
+}
+
+.container {
+    background-color: rgba(214, 169, 195, 0.849);
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #810606;
+    font-family: 'Georgia', serif; /* Font for h1 */
+}
+
+input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 16px ;
+    margin: 15px 0 ;
+    border-radius: 50px ; 
+    border: 2px solid #d0a2c8 t; 
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif; 
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+    background-color: #ffffff; 
+}
+
+input[type="text"]:focus {
+    border: 2px solid #f06794;
+    outline: none !important;
+    box-shadow: 0 8px 16px rgba(197, 84, 146, 0.6);
+    background-color: #fdfdfd;
+}
+
+input[type="submit"] {
+    padding: 14px 25px;
+    background-color: #911df0;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Tahoma', sans-serif; 
+}
+
+input[type="submit"]:hover {
+    background-color: #f06794;
+    transform: translateY(-2px);
+}
+
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Times New Roman', serif; /* Font for result */
+}
+
+.result h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #007bff;
+    font-family: 'Courier New', monospace; /* Font for result heading */
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 1em;
+    color: #666;
+    font-family: 'Lucida Console', monospace; /* Font for footer */
+}
