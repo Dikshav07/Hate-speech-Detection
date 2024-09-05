@@ -67,4 +67,6 @@ It handles data preprocessing, training, and saving the trained model.
 2. **text**: The actual text data.
 3. **label**: 0 for non-hate speech, 1 for hate speech.
 
-# Final OutPut:
+# Final Output:
+![Screenshot (31)](https://github.com/user-attachments/assets/f0b13b8f-d014-4330-945a-566a3cb01c84)
+
