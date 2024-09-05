@@ -15,8 +15,20 @@ The project consists of a Flask backend with a web frontend to make the model ac
 5. **Responsive Design**: Mobile-friendly interface.
 6. **Light-weight and Efficient**: Fast processing of text with minimal delay.
 
-# Tech Stack
--> **Frontend**:<br>
-       1. HTML
-       2. CSS
-       3. JavaScript
+### Tech Stack
+- **Frontend**:
+  - HTML
+  - CSS
+  - JavaScript
+
+- **Backend**:
+  - Flask (Python)
+
+- **Machine Learning**:
+  - Scikit-learn (Python)
+  - Natural Language Processing (NLP)
+  - Pandas, Numpy
+
+- **Deployment**:
+  - Flask server for backend
+  - Streamlit for quick deployment (optional)
