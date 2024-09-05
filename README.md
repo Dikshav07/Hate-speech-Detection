@@ -55,4 +55,6 @@ The machine learning model used in this project is based on natural language pro
 4. **Evaluation**: The best-performing model was selected based on accuracy, precision, recall, and F1-score.
 
 # Code for Model Training:
-You can find the model training script in the train_model.py file. It handles data preprocessing, training, and saving the trained model.
+You can find the model training script in the $train_and_save_model.py$ file. 
+<br>
+It handles data preprocessing, training, and saving the trained model.
