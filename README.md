@@ -61,3 +61,10 @@ It handles data preprocessing, training, and saving the trained model.
 
 # Source of the Dataset
 1. [Twitter Hate Speech Dataset](https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset)
+
+# Dataset Features:
+1. **id**: Unique identifier for the text.
+2. **text**: The actual text data.
+3. **label**: 0 for non-hate speech, 1 for hate speech.
+
+# Final OutPut:
