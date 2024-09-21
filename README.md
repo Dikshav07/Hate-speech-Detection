@@ -5,8 +5,9 @@
 
 <br>
 Hate speech has become a growing concern in today’s online world. Identifying and combating hate speech is important to maintain healthy and respectful discussions on various platforms. This Hate Speech Detection project is designed to help identify and classify text as hate speech or non-hate speech using machine learning algorithms.
-
+<br>
 The project consists of a Flask backend with a web frontend to make the model accessible and user-friendly.
+
 # Features
 1. **Text Classification**: Detects whether the input text contains hate speech or not.
 2. **Machine Learning Model**: Trained on labeled data for hate speech detection.
