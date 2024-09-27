@@ -3,7 +3,6 @@ import pickle
 
 app = Flask(__name__)
 
-# Load the vectorizer and model from the pickle file
 with open('model.pkl', 'rb') as model_file:
     vectorizer, model = pickle.load(model_file)  # Load as a tuple
 
