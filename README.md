@@ -39,7 +39,7 @@ The project consists of a Flask backend with a web frontend to make the model ac
 2. Install all the libraries mentioned in the requirements.txt file with the command pip install -r requirements.txt
 3. Open your terminal/command prompt from your project directory and run the file main.py by executing the command python app.py
 4. Go to your browser and type http://127.0.0.1:5000/ in the address bar.
-5. And That's it!!
+5. Congrats!That's it!
 
 # Architecture
 ![Screenshot (32)](https://github.com/user-attachments/assets/3d9332ad-1a91-4150-8ac6-d797332562f7)
