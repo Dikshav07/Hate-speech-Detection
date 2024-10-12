@@ -12,6 +12,5 @@ model = DecisionTreeClassifier()
 X_train_vectorized = vectorizer.fit_transform(X_train)
 model.fit(X_train_vectorized, y_train)
 
-# Save both the vectorizer and the model together in a single file
 with open('model.pkl', 'wb') as model_file:
     pickle.dump((vectorizer, model), model_file)
