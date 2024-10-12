@@ -9,7 +9,6 @@ y_train = [0, 1, 0, 1]
 vectorizer = CountVectorizer(max_features=5000, stop_words='english')
 model = DecisionTreeClassifier()
 
-# Transform the training data and train the model
 X_train_vectorized = vectorizer.fit_transform(X_train)
 model.fit(X_train_vectorized, y_train)
 
