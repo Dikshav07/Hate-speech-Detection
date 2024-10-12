@@ -4,9 +4,9 @@ from sklearn.tree import DecisionTreeClassifier
 
 # Example training data
 X_train = ["I love this!", "I hate you!", "You are amazing", "You are ugly"]
-y_train = [0, 1, 0, 1]  # 0 for non-hate speech, 1 for hate speech
+y_train = [0, 1, 0, 1]  
 
-# Initialize the vectorizer and model
+
 vectorizer = CountVectorizer(max_features=5000, stop_words='english')
 model = DecisionTreeClassifier()
 
