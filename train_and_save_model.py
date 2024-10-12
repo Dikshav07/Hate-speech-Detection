@@ -6,7 +6,6 @@ from sklearn.tree import DecisionTreeClassifier
 X_train = ["I love this!", "I hate you!", "You are amazing", "You are ugly"]
 y_train = [0, 1, 0, 1]  
 
-
 vectorizer = CountVectorizer(max_features=5000, stop_words='english')
 model = DecisionTreeClassifier()
 
