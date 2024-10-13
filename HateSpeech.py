@@ -17,7 +17,6 @@ app = Flask(__name__)
 
 stemmer = SnowballStemmer("english")
 
-# Set of stopwords in English
 stopword = set(stopwords.words("english"))
 
 # Read the Twitter dataset
