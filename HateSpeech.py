@@ -21,7 +21,6 @@ stopword = set(stopwords.words("english"))
 
 df = pd.read_csv("C:\\Users\\tanis\\Downloads\\twitter_data.csv")
 
-# Labeling the class for Hate, Offensive, and No Hate and Offensive Language
 df['labels'] = df['class'].map({0: "Hate Speech Detected", 1: "Offensive language detected", 2: "No Hate and Offensive Speech"})
 df = df[['tweet', 'labels']]
 
