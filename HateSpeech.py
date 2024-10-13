@@ -19,7 +19,6 @@ stemmer = SnowballStemmer("english")
 
 stopword = set(stopwords.words("english"))
 
-# Read the Twitter dataset
 df = pd.read_csv("C:\\Users\\tanis\\Downloads\\twitter_data.csv")
 
 # Labeling the class for Hate, Offensive, and No Hate and Offensive Language
