@@ -24,7 +24,6 @@ df = pd.read_csv("C:\\Users\\tanis\\Downloads\\twitter_data.csv")
 df['labels'] = df['class'].map({0: "Hate Speech Detected", 1: "Offensive language detected", 2: "No Hate and Offensive Speech"})
 df = df[['tweet', 'labels']]
 
-# Function to clean text
 def clean(text):
     text = str(text).lower()  # Convert text to lowercase
     text = re.sub(r'\[.*?\]', '', text)  # Remove text within square brackets
