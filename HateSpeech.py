@@ -15,7 +15,6 @@ nltk.download('stopwords')
 
 app = Flask(__name__)
 
-# Initialize Snowball Stemmer for English
 stemmer = SnowballStemmer("english")
 
 # Set of stopwords in English
