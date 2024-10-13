@@ -13,7 +13,6 @@ import string
 
 nltk.download('stopwords')
 
-# Initialize Flask app
 app = Flask(__name__)
 
 # Initialize Snowball Stemmer for English
